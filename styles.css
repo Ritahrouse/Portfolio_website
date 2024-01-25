@@ -31,7 +31,7 @@ h3 {
 }
 
 p {
-    background: var(--secondary-color);
+    
     padding: 20px;
     border-radius: 4px;
     font-size: 18px;
@@ -98,15 +98,24 @@ p {
 .app {
     font-weight: 500;
 }
-@media(max-width:500px) {
+@media(max-width:800px) {
     #heading{
         font-size: 20px;
     }
         h1{
             font-size: 45px;
+           
         }
         h2{
             font-size: 30px;
+        }
+        .launch{
+            display: block;
+            text-align: center;
+        }
+        .app{
+            display: block;
+            text-align: center;
         }
 }
 .block{
